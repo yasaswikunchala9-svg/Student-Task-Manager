@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Student Task Manager 📚</h1>
+    <p>Organize your study schedule!</p>
+
+    <div class="input-area">
+      <input id="taskInput" placeholder="Enter your task">
+      <input type="date" id="deadline">
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <h2>My Tasks</h2>
+    <div id="taskList"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
